@@ -1,0 +1,104 @@
+{
+    "NetworkInterfaces": [
+        {
+            "Association": {
+                "IpOwnerId": "amazon",
+                "PublicDnsName": "ec2-3-1-204-148.ap-southeast-1.compute.amazonaws.com",
+                "PublicIp": "3.1.204.148"
+            },
+            "Attachment": {
+                "AttachTime": "2024-08-03T03:05:38+00:00",
+                "AttachmentId": "eni-attach-0ba64a3558a3bf003",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 0,
+                "NetworkCardIndex": 0,
+                "InstanceId": "i-04e3482bc237ddc0d",
+                "InstanceOwnerId": "255945442255",
+                "Status": "attached"
+            },
+            "AvailabilityZone": "ap-southeast-1b",
+            "Description": "",
+            "Groups": [
+                {
+                    "GroupName": "ven-bluegreen-app",
+                    "GroupId": "sg-0262213bdf0bdd7c4"
+                }
+            ],
+            "InterfaceType": "interface",
+            "Ipv6Addresses": [],
+            "MacAddress": "02:23:1f:6e:61:87",
+            "NetworkInterfaceId": "eni-043efc5da1970ab21",
+            "OwnerId": "255945442255",
+            "PrivateDnsName": "ip-10-0-102-160.ap-southeast-1.compute.internal",
+            "PrivateIpAddress": "10.0.102.160",
+            "PrivateIpAddresses": [
+                {
+                    "Association": {
+                        "IpOwnerId": "amazon",
+                        "PublicDnsName": "ec2-3-1-204-148.ap-southeast-1.compute.amazonaws.com",
+                        "PublicIp": "3.1.204.148"
+                    },
+                    "Primary": true,
+                    "PrivateDnsName": "ip-10-0-102-160.ap-southeast-1.compute.internal",
+                    "PrivateIpAddress": "10.0.102.160"
+                }
+            ],
+            "RequesterManaged": false,
+            "SourceDestCheck": true,
+            "Status": "in-use",
+            "SubnetId": "subnet-02cd8622b1c7db909",
+            "TagSet": [],
+            "VpcId": "vpc-0411632e16afd09a2"
+        },
+        {
+            "Association": {
+                "IpOwnerId": "amazon",
+                "PublicDnsName": "ec2-18-142-90-113.ap-southeast-1.compute.amazonaws.com",
+                "PublicIp": "18.142.90.113"
+            },
+            "Attachment": {
+                "AttachTime": "2024-08-03T03:05:38+00:00",
+                "AttachmentId": "eni-attach-0857cef05779c6a5a",
+                "DeleteOnTermination": true,
+                "DeviceIndex": 0,
+                "NetworkCardIndex": 0,
+                "InstanceId": "i-0540582822a59f5d0",
+                "InstanceOwnerId": "255945442255",
+                "Status": "attached"
+            },
+            "AvailabilityZone": "ap-southeast-1c",
+            "Description": "",
+            "Groups": [
+                {
+                    "GroupName": "ven-bluegreen-app",
+                    "GroupId": "sg-0262213bdf0bdd7c4"
+                }
+            ],
+            "InterfaceType": "interface",
+            "Ipv6Addresses": [],
+            "MacAddress": "0a:9a:7d:b6:d2:2d",
+            "NetworkInterfaceId": "eni-0bd4ed313acb04036",
+            "OwnerId": "255945442255",
+            "PrivateDnsName": "ip-10-0-103-127.ap-southeast-1.compute.internal",
+            "PrivateIpAddress": "10.0.103.127",
+            "PrivateIpAddresses": [
+                {
+                    "Association": {
+                        "IpOwnerId": "amazon",
+                        "PublicDnsName": "ec2-18-142-90-113.ap-southeast-1.compute.amazonaws.com",
+                        "PublicIp": "18.142.90.113"
+                    },
+                    "Primary": true,
+                    "PrivateDnsName": "ip-10-0-103-127.ap-southeast-1.compute.internal",
+                    "PrivateIpAddress": "10.0.103.127"
+                }
+            ],
+            "RequesterManaged": false,
+            "SourceDestCheck": true,
+            "Status": "in-use",
+            "SubnetId": "subnet-0f18e7e8d0f837145",
+            "TagSet": [],
+            "VpcId": "vpc-0411632e16afd09a2"
+        }
+    ]
+}
