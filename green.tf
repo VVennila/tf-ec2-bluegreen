@@ -9,7 +9,8 @@ data "aws_ami" "green" {
 }
 
 resource "aws_instance" "green" {
-  count                  = var.enable_green_env ? 2 : 0
+  count = var.enable_green_env ? 2 : 0
+  
   ami                    = data.aws_ami.green.id
   instance_type          = "t2.micro"
   subnet_id              = data.aws_subnets.private.ids[count.index % length(data.aws_subnets.private.ids)]
