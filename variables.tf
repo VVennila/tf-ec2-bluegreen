@@ -1,7 +1,7 @@
 variable "name" {
   description = "Unique identifier for the user"
   type        = string
-  default     = "ven-bluegreen" # to replace
+  default     = "vennila" # to replace
 }
 
 variable "vpc_id" {
